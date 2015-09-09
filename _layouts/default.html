@@ -14,10 +14,8 @@ published: true
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
 </head>
 <body>
-  {% for test in site.tests %}
-  {{ forloop.index }}
-  {{test.title}}
-  {{test.content}}
+  {% for num in [1,2,3,4] %}
+  {{ num }}
   {% endfor %}
   <div class='container'>
     <div class='col12 clearfix'>
