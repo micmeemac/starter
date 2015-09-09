@@ -1,8 +1,10 @@
 baseurl: /starter
 permalink: pretty
 markdown: rdiscount
+collections:
+  - tests
 prose:
-  rooturl: '_posts'
+  rooturl: ''
   siteurl: 'http://prose.github.io/starter/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
