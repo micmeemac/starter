@@ -9,6 +9,11 @@ prose:
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
   metadata:
+    _tests:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Layout"
     _posts:
       - name: "category"
         field:
