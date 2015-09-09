@@ -1,6 +1,8 @@
 ---
-title: 'This is my Site Title'
+title: This is my Site Title
+published: true
 ---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,6 +14,11 @@ title: 'This is my Site Title'
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
 </head>
 <body>
+  {% for test in site.tests %}
+  {{ forloop.index }}
+  {{test.title}}
+  {{test.content}}
+  {% endfor %}
   <div class='container'>
     <div class='col12 clearfix'>
       <div class='header col6 margin3 pad4h'>
