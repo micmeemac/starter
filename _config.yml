@@ -8,6 +8,9 @@ prose:
   siteurl: 'http://micmeemac.github.io/starter/'
   relativeLinks: 'http://micmeemac.github.io/starter/links.jsonp'
   media: 'media'
+  ignore: 
+    - layouts/
+    - includes/
   metadata:
     _posts:
       - name: "category"
