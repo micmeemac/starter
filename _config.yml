@@ -10,7 +10,7 @@ prose:
   media: 'media'
   metadata:
     _tests:
-      - name: "title"
+      - name: "layout"
         field:
           element: "text"
           label: "Layout"
