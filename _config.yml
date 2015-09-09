@@ -5,8 +5,8 @@ collections:
   - tests
 prose:
   rooturl: ''
-  siteurl: 'http://prose.github.io/#micmeemac/starter/'
-  relativeLinks: 'http://prose.github.io/#micmeemac/starter/links.jsonp'
+  siteurl: 'http://micmeemac.github.io/starter/'
+  relativeLinks: 'http://micmeemac.github.io/starter/links.jsonp'
   media: 'media'
   metadata:
     _posts:
