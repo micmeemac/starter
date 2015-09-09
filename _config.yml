@@ -9,8 +9,8 @@ prose:
   relativeLinks: 'http://micmeemac.github.io/starter/links.jsonp'
   media: 'media'
   ignore:
-     - _layouts/
-     - _includes/
+     - /_layouts
+     - /_includes
   metadata:
     _posts:
       - name: "category"
