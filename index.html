@@ -6,11 +6,8 @@ published: true
 
 
 
+
 <div class='listing col6 pad4h margin3'>
-  {% for test in site.tests %}
-  {{ test.title }}
-  {{ test.content }}
-  {% endfor %}
   {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
